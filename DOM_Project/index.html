@@ -9,14 +9,15 @@
 <body>
     <nav>
         <a href="#Registration">Registration</a>
-        <a href="#StudentRecords">Student Records</a>
+        <a href="#records">Student Records</a>
     </nav>
     <header>
         <h1>Student Registration System</h1>
         <p class="description">A comprehensive system for registering new students and managing their academic records.</p>
     </header>
     <div class="container">
-        <section><section id="registration" class="form-section">
+        <div class="sections-container">
+        <section id="registration" class="form-section">
             <h2>Register New Student</h2>
             <form id="studentForm">
                 <div class="form-group">
@@ -41,7 +42,27 @@
                 
                 <button type="submit">Register Student</button>
             </form>
-        </section></section>
+        </section>
+        <section id="records" class="display-section">
+            <h2>Registered Students</h2>
+            <div class="records-container">
+                <table id="studentTable">
+                    <thead>
+                        <tr>
+                            <th>Student Name</th>
+                            <th>Student ID</th>
+                            <th>Email ID</th>
+                            <th>Contact No</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </section>
     </div>
+    </div>
+    <script src="./script.js"></script>
 </body>
 </html>
