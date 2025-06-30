@@ -1,0 +1,43 @@
+#recentSearchesList li {
+    cursor: pointer;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+}
+
+#recentSearchesList li:hover {
+    background-color: #a0a2a5;
+}
+
+.forecast-day {
+    transition: all 0.2s ease;
+}
+
+.forecast-day:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Weather icon colors */
+.fa-sun {
+    color: #f59e0b;
+}
+
+.fa-cloud {
+    color: #9ca3af;
+}
+
+.fa-cloud-rain {
+    color: #60a5fa;
+}
+
+.fa-snowflake {
+    color: #bfdbfe;
+}
+
+.fa-bolt {
+    color: #fcd34d;
+}
+
+.fa-smog {
+    color: #6b7280;
+}
