@@ -1,5 +1,5 @@
 --Weather Forecast App--
-responsive web application that provides real-time weather data and 5-day forecasts for any city  or your current location.
+Responsive web application that provides real-time weather data and 5-day forecasts for any city  or your current location.
 
 Features-
 1. Current Weather: Temperature, humidity, wind speed, and conditions
